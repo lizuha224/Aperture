@@ -4,19 +4,32 @@
     box-sizing: border-box;
 }
 
-.container {
+.container_block{
     max-width: 1440px;
-
+    margin: auto;
+    max-width: 100%;
 }
-.navigation{
-background-color: black;
-max-width: 100%;
+
+.header {
+    max-width: 1440px;
+    height: 90px;
+    background: #181818;
+    border-radius: 0px;
 }
 
 .logo {
+    color: #FFFFFF;
     margin-left: 152px;
+    margin-top: 30px;
 }
+
+.navigation {
+    margin-top: -40px;
+    padding-left: 600px;
+}
+
 .item_nav {
+    padding-left: 56px;
     text-decoration: none;
     font-family: 'Poppins';
     font-style: normal;
@@ -27,10 +40,34 @@ max-width: 100%;
 }
 
 .nav_but {
+    padding: 10px 11px;
+    margin-left: 31px;
     background-color: #FFFFFF;
+    color: black;
+    border-radius: 14px;
+    cursor: pointer;
 }
 
-.p {
+.nav_but:hover {
+    color: brown;
+}
+
+.oceans {    
+    border-radius: 0px;
+    background: linear-gradient(360deg, #000000 18.78%, rgba(0, 0, 0, 0) 98.53%), url(/img/IMAGE\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 1440px;
+    max-width: 100%;
+}
+
+.aperture {
+    padding-top: 430px;
+    padding-bottom: 60px;
+}
+
+.p_af {
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
@@ -40,26 +77,100 @@ line-height: 20px;
 text-align: center;
 letter-spacing: 2px;
 text-transform: uppercase;
-    color: #C0C0C0;
+
+color: #C0C0C0;
 }
 
-.h1 {
+.z_ok {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 54px;
     line-height: 59px;
+    
     text-align: center;
+    
     color: #FFFFFF;
+    
 }
 
-.p {
+.mini_text {
+    padding-top: 18px;
     font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    
+    color: #C0C0C0;
+}
+
+.other {
+max-width: 1440px;
+height: 1558px;
+background-color: black;
+}
+
+.what {
+align-items: center;
+font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-text-align: center;
-color: #C0C0C0;
+font-size: 40px;
+line-height: 42px;
 
+
+text-align: center;
+
+color: #FFFFFF;
 }
+
+.the {
+padding-left: 394px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 30px;
+
+text-align: center;
+
+color: #C0C0C0;
+}
+
+.cards {
+    padding: 120, 120, 100, 120;
+    max-width: 1200px;
+    height: 1338px;
+    padding-top: 120px;
+}
+
+.object {
+display: flex;
+}
+
+.photo_1 {
+   padding-left: 136px;
+}
+
+.triangle {
+    padding-left: 16px;
+}
+
+.object_2 {
+display: flex;
+margin-top: -89px;
+padding-bottom: 100px;
+}
+
+.photo_3 {
+    padding-left: 136px;
+}
+
+.deer {
+    padding-left: 16px;
+}
+
+
