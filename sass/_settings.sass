@@ -1,0 +1,42 @@
+*,*:before, *:after
+    box-sizing: border-box
+    margin: 0   
+html
+    font-family: 'Poppins', sans-serif
+    font-size: 16px
+    color: $white
+.container
+    &--small
+        max-width: 37.5rem
+        width: 100%
+        margin: auto
+    &--normal
+        max-width: 75rem
+        width: 100%
+        margin: auto
+    &--wide
+        max-width: 90rem
+        width: 100%
+        margin: auto
+a
+    color: $white
+    text-decoration: 
+.button
+    border: none
+    color: $dark
+    cursor: pointer
+    border-radius: 0.875rem
+    &--primary
+        background: $white
+    &--black
+        position: relative
+        padding: 0.625rem 0.625rem 0.8125rem 2.625rem
+        &::before
+            content: ''
+            position: absolute
+            top: 3px
+            left: 5px
+            width: 32px
+            height: 32px
+            background: url('../img/dark.svg')
+

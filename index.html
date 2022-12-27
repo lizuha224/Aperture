@@ -1,114 +1,291 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
-    <title>Aperture +</title>
+    <title>Aperture</title>
 </head>
 <body>
-    <header class="header">
-
-    <div class="container_block">
-        <img src="./img/Aperture-Logotype-Horizontal-White.svg" alt="LOGO" class="logo">
-    
-
-<div class="navigation">
-        <a href="#" class="item_nav">Business areas</a>
-        <a href="#" class="item_nav">Featured images</a>
-        <a href="#" class="item_nav">Gear cage</a>
-        <a href="#" class="item_nav">Contact</a>
-        <button class="nav_but">Get template</button>
-    </div>
+<header class="header">
+    <div class="container--normal">
+        <div class="header-nav">
+            <img src="./img/logo.svg" alt="logo" class="header-logo">
+            <div class="header-nav-link">
+                <a href="#" class="header-nav-link__items">Business areas</a>
+                <a href="#" class="header-nav-link__item">Featured images</a>
+                <a href="#" class="header-nav-link__item">Gear cage</a>
+                <a href="#" class="header-nav-link__item">Contact</a>
+                <button class="header-button">Get template</button>
+            </div>
+        </div>
     </div>
 </header>
+<!-- /.header -->
+<main>
+    <section class="hero">
+        <div class="container--wide">
+            <div class="hero-text">
+                <p class="hero-text__top">Photographer & Filmmaker</p>
+                <h1 class="hero-text__title">Aperture Studios</h1>
+                <p class="hero-text__bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+            </div>
+            <div class="hero-img">
+                <img src="./img/hero1.png" alt="#" class="hero-img__image">
+                <img src="./img/hero2.png" alt="#" class="hero-img__image">
+                <img src="./img/hero3.png" alt="#" class="hero-img__image">
+                <img src="./img/hero4.png" alt="#" class="hero-img__image">
+            </div>
+        </div>
+    </section>
+    <section class="card">
+        <div class="container--normal">
+            <div class="card-text">
+                <h2 class="card-text__title">What we do.</h2>
+                <p class="card-text__desc">The areas that we're specialized in.</p>
+            </div>
+            <div class="card-item">
+                <div class="card-item-one"  id="card-item1">
+                    <h3 class="card-item-one__title">Product Photography</h3>
+                    <p class="card-item-one__text">Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
+                    <button class="button--black">Read more</button>
+                </div>
+                <div class="card-item-one" id="card-item2">
+                    <h3 class="card-item-one__title">Architecture Photography</h3>
+                    <p class="card-item-one__text">Aenean porta neque eget consequat fringilla. Vestibulum ultrices, orci nec egestas pharetra, ligula est semper enim, nec auctor sapien leo nec purus. Fusce tincidunt aliquet sapien, sit amet rhoncus leo imperdiet nec.</p>
+                    <button class="button--black">Read more</button>
+                </div>
+                <div class="card-item-one" id="card-item3">
+                    <h3 class="card-item-one__title">Drone Photography</h3>
+                    <p class="card-item-one__text">Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
+                    <button class="button--black">Read more</button>
+                </div>
+                <div class="card-item-one"  id="card-item4">
+                    <h3 class="card-item-one__title">Wildlife Photography</h3>
+                    <p class="card-item-one__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis.</p>
+                    <button class="button--black">Read more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="photo">
+        <div class="container--wide">
+            <div class="photo__content">
+                <div class="photo-text">
+                    <h2 class="photo-text__title">Sunset at Mount Fuji</h2>
+                    <p class="photo-text__desc">Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non.</p>
+                </div>
+                <!-- /.photo-text -->
+            </div>
+            <!-- /.photo__content -->
+            <div class="hero-extra-info">
+                <div class="hero-extra-info__item">
+                    <img src="./img/clock.svg" alt="Время" class="extra-info__img">
+                    <p class="extra-info__text">1"</p>
+                </div>
+                <!-- /.hero-extra-info__item -->
+                <div class="hero-extra-info__item">
+                    <img src="./img/camera.svg" alt="Объектив" class="extra-info__img">
+                    <p class="extra-info__text">f/16</p>
+                </div>
+                <!-- /.hero-extra-info__item -->
+                <div class="hero-extra-info__item">
+                    <img src="./img/iso.svg" alt="ISO" class="extra-info__img">
+                    <p class="extra-info__text">400</p>
+                </div>
+                <!-- /.hero-extra-info__item -->
+                <div class="hero-extra-info__item">
+                    <img src="./img/mark.svg" alt="Метка" class="extra-info__img">
+                    <p class="extra-info__text">Japan</p>
+                </div>
+                <!-- /.hero-extra-info__item -->
+            </div>
+            <!-- /.hero-extra-info -->
+        </div>
+        <!-- /.container--wide -->
+    </section>
+    <section class="about">
+        <div class="container--wide">
+            <div class="about-content">
+                <h3 class="about-content__desc">The Gear cage</h3>
+                <h2 class="about-content__title">The tools that we use.</h2>
+                <p class="about-content__text">The say that "no place is boring if you've had a good night's sleep and have a pocket full of unexposed film". While we don't shoot (a lot) of film these days — these are the tools that we actually use everyday to capture the amazing things around us.</p>
+                <button class="button--black">Check it out</button>
+            </div>
+            <div class="hero-extra-info">
+                <div class="hero-extra-info__item">
+                    <img src="./img/clock.svg" alt="Время" class="extra-info__img">
+                    <p class="extra-info__text">1"</p>
+                </div>
+                <!-- /.hero-extra-info__item -->
+                <div class="hero-extra-info__item">
+                    <img src="./img/camera.svg" alt="Объектив" class="extra-info__img">
+                    <p class="extra-info__text">f/16</p>
+                </div>
+                <!-- /.hero-extra-info__item -->
+                <div class="hero-extra-info__item">
+                    <img src="./img/iso.svg" alt="ISO" class="extra-info__img">
+                    <p class="extra-info__text">400</p>
+                </div>
+                <!-- /.hero-extra-info__item -->
+                <div class="hero-extra-info__item">
+                    <img src="./img/mark.svg" alt="Метка" class="extra-info__img">
+                    <p class="extra-info__text">Japan</p>
+                </div>
+                <!-- /.hero-extra-info__item -->
+            </div>
+            <!-- /.hero-extra-info -->
+        </div>
+    </section>
+    <section class="info">
+        <div class="container--wide">
+            <div class="info__content">
+                <div class="info-text">
+                    <h2 class="info-text__title">Monstera Leafs</h2>
+                    <p class="info-text__desc">Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.</p>
+                </div>
+                <!-- /.photo-text -->
+            </div>
+            <!-- /.photo__content -->
+            <div class="hero-extra-info">
+                <div class="hero-extra-info__item">
+                    <img src="./img/clock.svg" alt="Время" class="extra-info__img">
+                    <p class="extra-info__text">1/400s"</p>
+                </div>
+                <!-- /.hero-extra-info__item -->
+                <div class="hero-extra-info__item">
+                    <img src="./img/camera.svg" alt="Объектив" class="extra-info__img">
+                    <p class="extra-info__text">f/3,5</p>
+                </div>
+                <!-- /.hero-extra-info__item -->
+                <div class="hero-extra-info__item">
+                    <img src="./img/iso.svg" alt="ISO" class="extra-info__img">
+                    <p class="extra-info__text">100</p>
+                </div>
+                <!-- /.hero-extra-info__item -->
+                <div class="hero-extra-info__item">
+                    <img src="./img/mark.svg" alt="Метка" class="extra-info__img">
+                    <p class="extra-info__text">Costa Rica</p>
+                </div>
+                <!-- /.hero-extra-info__item -->
+            </div>
+            <!-- /.hero-extra-info -->
+        </div>
+        <!-- /.container--wide -->
+    </section>
+    <section class="clients">
+        <div class="container--normal">
+            <div class="clients-text">
+                <h2 class="clients-text__title">Past clients</h2>
+                <p class="clients-text__desc">Trusted by your favourite companies</p>
+            </div>
+            <div class="clients-img">
+                <img src="./img/clients1.png" alt="" class="clients-img__item">
+                <img src="./img/clients2.png" alt="" class="clients-img__item">
+                <img src="./img/clients3.png" alt="" class="clients-img__item">
+                <img src="./img/clients4.png" alt="" class="clients-img__item">
+                <img src="./img/clients5.png" alt="" class="clients-img__item">
+            </div>
+        </div>
+    </section>
 
-<div class="oceans">
-    <!-- <img src="./img/IMAGE (1).png" alt="ocean" class="ocean"> -->
-    <div class="aperture">
-    <p class= "p_af">Photographer & Filmmaker </p>
-    <h1 class="z_ok">Aperture Studios</h1>
-    <p class="mini_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in<br> eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum<br> nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id<br> rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+    <section class="north">
+        <div class="container--wide">
+            <div class="north__content">
+                <div class="north-text">
+                    <h2 class="north-text__title">Star fall in the Himalayas</h2>
+                    <p class="north-text__desc">Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.</p>
+                </div>
+                <!-- /.photo-text -->
+            </div>
+            <!-- /.photo__content -->
+            <div class="hero-extra-north">
+                <div class="hero-extra-north__item">
+                    <img src="./img/clock.svg" alt="Время" class="extra-north__img">
+                    <p class="extra-info__text">6"</p>
+                </div>
+                <!-- /.hero-extra-info__item -->
+                <div class="hero-extra-north__item">
+                    <img src="./img/camera.svg" alt="Объектив" class="extra-north__img">
+                    <p class="extra-north__text">f/11</p>
+                </div>
+                <!-- /.hero-extra-info__item -->
+                <div class="hero-extra-north__item">
+                    <img src="./img/iso.svg" alt="ISO" class="extra-north__img">
+                    <p class="extra-north__text">800</p>
+                </div>
+                <!-- /.hero-extra-info__item -->
+                <div class="hero-extra-north__item">
+                    <img src="./img/mark.svg" alt="Метка" class="extra-north__img">
+                    <p class="extra-north__text">Nepal</p>
+                </div>
+                <!-- /.hero-extra-info__item -->
+            </div>
+            <!-- /.hero-extra-info -->
+        </div>
+        <!-- /.container--wide -->
+    </section>
+    <section class="help">
+        <div class="container--small">
+            <h2 class="help__title">Need help with photography or videography?</h2>
+                <p class="help__subtitle">We're here for you!</p>
+                <div class="help-container__button">
+                    <button class="button button--black help__button">Get in touch</button>
+                </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container--normal">
+        <div class="footer-top">
+            <div class="footer-logo">
+                <img src="./img/logo.svg" alt="Лого" class="footer-logo__img">
+                <p class="footer-logo__text">Photographers & videographers capturing the world around us.</p>
+            </div>
+            <div class="footer-nav">
+                <div class="footer-business">
+                    <p class="footer-business__title">Business areas</p>
+                    <a href="#" class="footer-business__link">Product Photography</a>
+                    <a href="#" class="footer-business__link">Architecture Photography</a>
+                    <a href="#" class="footer-business__link">Drone Photography</a>
+                    <a href="#" class="footer-business__link">Wildlife Photography</a>
+                </div>
+                <div class="footer-pages">
+                    <p class="footer-pages__title">Pages</p>
+                    <a href="#" class="footer-pages__link">Gear cage</a>
+                    <a href="#" class="footer-pages__link">Featured images</a>
+                    <a href="#" class="footer-pages__link">Contact</a>
+                    <a href="#" class="footer-pages__link">Style guide</a>
+                    <a href="#" class="footer-pages__link">Instructions</a>
+                    <a href="#" class="footer-pages__link">Changelog</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-middle">
+            <div class="footer-text">
+                <div class="footer-text__container">
+                    <p class="footer-text__title">Subscribe to our newsletter</p>
+                    <p class="footer-text__subtitle">Read about all the things we do.</p>
+                </div>
+                <form action="#" class="footer-form">
+                    <input type="text" class="footer-form__input">
+                    <button class="button footer-form__button"></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-copyright__container">
+                <p class="footer__copyright">© Aperture Photography, Inc. All rights reserved.</p>
+                <p class="footer__license">Licensing .</p>
+            </div>
+            <div class="footer-social">
+                <a href="#" class="footer-social__link"><img src="./img/twitter.svg" alt="Лого соц-сети" class="footer-social__img"></a>
+                <a href="#" class="footer-social__link"><img src="./img/inst.svg" alt="Лого соц-сети" class="footer-social__img"></a>
+                <a href="#" class="footer-social__link"><img src="./img/facebook.svg" alt="Лого соц-сети" class="footer-social__img"></a>
+            </div>
+        </div>
     </div>
-</div>
-<div class="other">
-<div class="cards">
-    <h1 class="what">What we do.</h1>
-    <p class="the">The areas that we're specialized in.</p>
-<div class="object">
-    <div class="apple">
-        <img src="./img/IMAGE (6).png" alt="apple" class="photo_1">
-<h2>PRODUCT PHOTOGRAPHY</h2>
-<p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
-<button class="more">Read more</button>
-    </div>
-    <!-- /.apple -->
-
-    <div class="triangle">
-        <img src="./img/IMAGE (5).png" alt="triangle" class="photo_2">
-<h2>ARCHITECTURE PHOTOGRAPHY</h2>
-<p>Aenean porta neque eget consequat fringilla. Vestibulum ultrices, orci nec egestas pharetra, ligula est semper enim, nec auctor sapien leo nec purus. Fusce tincidunt aliquet sapien, sit amet rhoncus leo imperdiet nec.</p>
-<button class="more">Read more</button>
-    </div>
-    <!-- /.triangle -->
-</div>
-<div class="object_2">
-    <div class="wood">
-        <img src="./img/IMAGE (7).png" alt="wood" class="photo_3">
-        <h2>DRONE PHOTOGRAPHY</h2>
-        <p>Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
-        <button class="more">Read more</button>
-    </div>
-    <!-- /.wood -->
-    <div class="deer">
-        <img src="./img/IMAGE (8).png" alt="deer" class="photo_4">
-        <h2>WILDLIFE PHOTOGRAPHY</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis.</p>
-        <button class="more">Read more</button>
-    </div>
-    <!-- /.deer -->
-</div>
-</div>
-</div>
-<div class="mountain">
-    <img src="img/IMAGE (9).png" alt="mountain">
-<h2>SUNSET AT MOUNT FUJI</h2>
-<p>Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non.</p>
-
-</div>
-<div class="tools">
-    <div class="text">
-
-    </div>
-    <div class="camera">
-
-    </div>
-</div>
-<div class="leaves">
-    <h2>MONSTERA LEAFS</h2>
-    <p>Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.</p>
-
-</div>
-<div class="clients">
-    <h1>Past clients</h1>
-    <h2>Trusted by your favourite companies</h2>
-
-</div>
-<div class="stars">
-    <img src="img/IMAGE (12).png" alt="stars">
-    <h2>STAR FALL IN THE HIMALAYAS</h2>
-    <p>Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.</p>
-
-</div>
-<div class="text_p">
-    <h1>Need help with photography<br> or videography?</h1>
-    <p>We're here for you!</p>
-    <button class="get">Get in touch</button>
-</div>
-<div class="footer">
-    
-</div>
+</footer>
 </body>
 </html>
